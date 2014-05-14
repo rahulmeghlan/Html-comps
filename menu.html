@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Component</title>
+		<link rel="stylesheet" href="css/typography.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/theme.css" />
+	</head>
+	<body>
+	<!--
+		<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		 Component STARTS -->
+		<ul class="group menu" data-name="menu">
+			<li class="pull-left">
+				<a href="javascript:void(0)">Main Link-1</a>
+				<ul class="pull-left">
+					<li class="pull-left">
+						<a class="pull-left" href="javascript:void(0)">Sub Link-1a</a>
+						<ul class="pull-left right-open">
+							<li class="pull-left">
+								<a href="javascript:void(0)">Sub Link-11a</a>
+							</li>
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-11b</a></li>
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-11c</a></li>
+							<li class="pull-left">
+								<a class="pull-left" href="javascript:void(0)">Sub Link-11d</a>
+								<ul class="pull-left right-open">
+									<li class="pull-left"><a href="javascript:void(0)">Sub Link-111a</a></li>
+									<li class="pull-left"><a href="javascript:void(0)">Sub Link-111b</a></li>
+									<li class="pull-left"><a href="javascript:void(0)">Sub Link-111c</a></li>
+									<li class="pull-left"><a href="javascript:void(0)">Sub Link-111d</a></li>
+								</ul>
+							</li>
+						</ul>					
+					</li>
+					<li class="pull-left">
+						<a class="pull-left" href="javascript:void(0)">Sub Link-1b</a>
+						<ul class="pull-left right-open">
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-12a</a></li>
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-12b</a></li>
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-12c</a></li>
+							<li class="pull-left"><a href="javascript:void(0)">Sub Link-12d</a></li>
+						</ul>
+					</li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1c</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1d</a></li>
+				</ul>
+			</li>
+			<li class="pull-left"><a href="javascript:void(0)">Main Link-2</a>
+				<ul class="pull-left">
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1a</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1b</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1c</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1d</a></li>
+				</ul>
+			</li>
+			<li class="pull-left"><a href="javascript:void(0)">Main Link-3</a>
+				<ul class="pull-left">
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1a</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1b</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1c</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1d</a></li>
+				</ul>
+			</li>
+			<li class="pull-left"><a href="javascript:void(0)">Main Link-4</a>
+				<ul class="pull-left">
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1a</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1b</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1c</a></li>
+					<li class="pull-left"><a href="javascript:void(0)">Sub Link-1d</a></li>
+				</ul>
+			</li>
+		</ul>	
+		<!-- Component ENDS> 
+		
+		<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/menu.js"></script>
+		<script type="text/javascript">
+			(function(){
+				new components.Menu( $("[data-name=menu]") );
+			}());
+		</script>
+	</body>
+</html>

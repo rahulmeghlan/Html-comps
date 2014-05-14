@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Component</title>
+		<link rel="stylesheet" href="css/typography.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/theme.css" />
+	</head>
+	<body>
+		<!-- Component STARTS -->
+			<div class="tab" data-name="tab">
+				<ul class="tab-links group" data-id="links">
+					<li class="pull-left"><a class="active block" href="#tab1">Tab1</a></li>
+					<li class="pull-left"><a class="block" href="#tab2">Tab2</a></li>
+					<li class="pull-left"><a class="block" href="#tab3">Tab3</a></li>
+					<li class="pull-left"><a class="block" href="#tab4">Tab4</a></li>
+				</ul>
+				<div class="tab-content" data-id="content">
+					<div id="tab1">
+						<p>Tab1</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+					
+					<div class="hide" id="tab2">
+						<p>Tab2</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+					
+					<div class="hide" id="tab3">
+						<p>Tab3</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+					
+					<div class="hide" id="tab4">
+						<p>Tab4</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+				</div>
+			</div>
+		<!-- Component ENDS> -->
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/animation.js"></script>
+		<script src="js/tab.js"></script>
+		<script type="text/javascript">
+			(function(){
+				new components.Tab( $("[data-name=tab]") );
+			}());
+		</script>
+	</body>
+</html>

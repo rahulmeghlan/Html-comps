@@ -1,0 +1,92 @@
+
+
+/* 
+ *  Tab
+ **********/
+.tab .tab-links a{
+	padding: 15px 25px;
+	background: #999;
+	color: #FFF;
+}
+
+.tab .tab-links a:hover, .tab .tab-links a.active{
+	background: #0096fd;
+}
+
+
+/* 
+ *  Accordian
+ *************/
+ 
+.accordian dt{
+	background: #DDD;
+	cursor: pointer;
+	border: 1px solid #BBB;
+	padding: 10px;
+}
+
+.accordian dt:hover, dt.active{
+	background: #f4da70;
+	color: #FFF;
+	border: 1px solid #FFF;
+}
+
+
+/* 
+ *  Menu
+ *************/
+
+.menu {
+	width: 500px;
+}
+ 
+.menu a{
+	display: block;
+	background: #999;
+	color: #FFF;
+	padding: 10px;
+}
+
+.menu a:hover, .active{
+	background: #0096fd;
+}
+
+.menu li ul {
+	width: 90px;
+	position: absolute;
+}
+
+.menu .right-open{
+	margin-left: 90px;
+}
+
+
+/* 
+ *  Scrollbar
+ ***************/
+ .scrollbar {
+	overflow: hidden;
+	width: 400px;
+	height: 250px;
+	position: relative;
+	padding-right: 20px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+ }
+ 
+ .scrollbar .scrolltrack{
+	width: 4px;
+	background: #EEE;
+	position: absolute;
+	top: 0;
+	right: 3px;
+ }
+
+ .scrollbar .bar{
+	display: block;
+	background: red;
+	width: 10px;
+	position: relative;
+	top: 0;
+	right: 3px;
+ }

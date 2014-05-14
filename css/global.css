@@ -1,0 +1,26 @@
+
+/* Floats left */
+.pull-left{
+	float: left
+}
+
+/* Floats right */
+.pull-right{
+	flloat: right;
+}
+
+/* Fixes parent's height, containing floats */
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Hides element in browser */
+.hide{
+	display: none;
+}
+
+.block{
+	display: block;
+}

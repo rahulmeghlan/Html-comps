@@ -1,0 +1,1 @@
+/* Remove default padding */ul{	padding: 0;}/* Remove default list bullet */li {	list-style: none;}a{	text-decoration: none;}body{	font-size: 85%;	font-family: arial;	color: #555;}dd{	margin: 0;}
