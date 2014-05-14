@@ -108,7 +108,7 @@
 				that.cache.bar.css( "top", scrollTop + "px");
 				
 				// Set content's new position
-				that.cache.scrollPane.css( "margin-top", Math.round( -1 * that.data.contentScrollOffset * scrollTop ) + "px" );
+				that.cache.scrollPane.animate({ marginTop: Math.round( -1 * that.data.contentScrollOffset * scrollTop ) + "px"}, 50);
 				
 				// Trigger scroll Event
 				that.$el.trigger( "scroll", {scrollTop: scrollTop} );
